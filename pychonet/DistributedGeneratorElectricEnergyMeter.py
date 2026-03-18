@@ -6,8 +6,6 @@ from pychonet.lib.epc_functions import (
     _yyyy_mm_dd,
 )
 
-ENL_DGEEM_ENG_UNIT = 0xD4
-
 def _028ED4(edt):
     op_mode = int.from_bytes(edt, "big")
     values = {
